@@ -1,5 +1,13 @@
 # student-management-system
-Student management system project in python
+
+This Python code is a student management system using Tkinter for the GUI and MySQL for data storage. It allows the user to:
+1.Add, view, update, or delete student records in a MySQL database.
+2.Collects information such as name, course, subject, contact, and more.
+3.Uses buttons for actions like submitting or viewing records.
+4.Connects to a MySQL database to perform operations such as retrieving, updating, or deleting student data.
+5.Includes custom styling through external modules (custom and credentials).
+
+
 
 ****Requirements and Installation****
 
@@ -36,3 +44,6 @@ Create a table "student_register" under the "student_management" database.
 	email VARCHAR(100) NOT NULL,
 	PRIMARY KEY ( contact )
 );
+
+
+After doing the above steps run the ****main.py**** file.
